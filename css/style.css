@@ -5,6 +5,7 @@ span,
 applet,
 object,
 iframe,
+
 h1,
 h2,
 h3,
@@ -212,8 +213,8 @@ header {background: #000000;height: 380px;padding: 60px 0 200px;position: relati
 .download-sec{background: #fd4733;color: #fff;padding: 10px 30px 9px;font-size: 14px;border-radius: 30px;border: 2px solid #fd4733;transition:all 0.4s;}
 .download-sec:hover {background: #fff;color: #fd4733;text-decoration: none; }
 
-.profile-img {width: 360px;height: 360px;background: #000;border-radius: 50%;    overflow: hidden;margin:0 auto;    text-align: center;margin-bottom: -180px;position: absolute;left: 50%;margin-left: -180px;}
-.profile-img img {    border-radius: 50%;margin-top: 30px;}
+.profile-img {width: 360px;height: 360px;background: #000;border-radius: 50%;    overflow: hidden;margin:0 auto;    text-align: center;margin-bottom: -180px;position: absolute;left: 50%;margin-left: -180px; margin-top:-30px}
+.profile-img img {    border-radius: 50%;margin-top: 0px;}
 .banner-sec{text-align: center;padding-top: 200px;    padding-bottom: 60px;}
 .banner-sec h2{font-size: 56px;line-height: 67px;color: #959595;letter-spacing: -0.4px;margin-bottom: 60px;    padding: 0 20px;}
  .devider {width: 1px;height: 150px;background: #ccc;display:block;margin: 0 auto;}
@@ -622,7 +623,7 @@ a.bsp-controls.next {width: 40px;
      }
     @media only screen and (max-width: 1024px) {
         .profile-img {    width: 240px;height: 240px;    margin-left: -120px;bottom: 80px;}
-        .profile-img img{max-width: 100%;margin-top: 15px;display: block;}
+        .profile-img img{max-width: 100%;margin-top: 0px;display: block; }
         .banner-sec{padding-top: 160px;}
         .banner-sec h2{font-size: 44px;line-height: 64px;padding: 0 40px;}
         .devider{height: 100px;}
